@@ -32,7 +32,7 @@ Credit goes to the following people for doing all the initial development on rep
 ## Ordering PCBs from JLCPCB
 
 The files needed for https://jlcpcb.com are located in the production folders:
-* Choose `pcb-pro/production` or `pcb/production` 
+* Choose `pcb-pro/production`, `pcb-pro-nrf/production` or `pcb/production` 
 * `thumb-pcb/production`
 
 Once uploaded, you place the order with the selected default options.  You can optionally change the solder mask color, which changes the final color of your PCB.
@@ -137,6 +137,13 @@ Mill-Max 310 sockets are recommended for socketing the Nice!Nano because thin pi
 The Nice!Nano is one pin short of supporting all 4 status lights on the Advantage.  If you want to utilize the unused numpad status LED as a power indicator, go ahead and short JP1 with some solder.
 
 <img src="https://i.imgur.com/5jWpRJg.jpeg" width="350">
+
+### SuperMini NRF52840
+
+For [SuperMini NRF52840](https://github.com/joric/nrfmicro/wiki/Alternatives), use `pcb-pro-nrf` - it has 3 additional holes at correct place.
+
+<img src="pcb-pro-nrf/pcb-nrf-front.png" width="350">
+<img src="pcb-pro-nrf/pcb-nrf-back.png" width="350">
 
 ## Thumb cluster PCB build guide
 
