@@ -32,7 +32,7 @@ Credit goes to the following people for doing all the initial development on rep
 ## Ordering PCBs from JLCPCB
 
 The files needed for https://jlcpcb.com are located in the production folders:
-* Choose `pcb-pro/production` or `pcb/production` 
+* Choose `pcb-pro/production`, `pcb-pro-nrf/production` or `pcb/production` 
 * `thumb-pcb/production`
 
 Once uploaded, you place the order with the selected default options.  You can optionally change the solder mask color, which changes the final color of your PCB.
@@ -143,6 +143,14 @@ The Nice!Nano is one pin short of supporting all 4 status lights on the Advantag
 The wiring for the thumb cluster (a.k.a. matrix wiring) has not been altered from original, so theoretically, they can be used in conjunction with any Kinesis PCB, including the stock one.
 
 The PCB is also reversible, so you don't have to place separate orders for a "left" version and a "right" version.
+
+### SuperMini NRF52840
+
+For [SuperMini NRF52840](https://github.com/joric/nrfmicro/wiki/Alternatives), use `pcb-pro-nrf` - it has 3 additional holes at correct place.
+
+<img src="pcb-pro-nrf/pcb-nrf-front.png" width="350">
+<img src="pcb-pro-nrf/pcb-nrf-back.png" width="350">
+
 
 ### Components
 
